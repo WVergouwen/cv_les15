@@ -1,0 +1,65 @@
+div{
+  background-color: #CCFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+header, footer{
+background-color: #CCFF66;
+padding: 15px;
+}
+p{
+  background-color: #CCFF99;
+  padding: 15px;
+}
+footer{
+  text-align: center;
+}
+img{
+  width: 200px;
+}
+li{
+  display: inline-block;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #FFCC00;
+  border: 2px solid green;
+}
+li:hover{
+  background-color: white;
+  border: 2px solid red;
+}
+table{
+  border-collapse: collapse;
+  background-color: #CCFF99;
+  margin-left: 15px;
+}
+td, th{
+  border: 2px solid;
+  width: 250px;
+  padding: 10px;
+}
+h2, form{
+  padding: 15px;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea, button{
+  display: block;
+  margin: 5px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #CCFF99;
+  font-family: Verdana;
+  font-size: 16px;
+}
+textarea{
+  height: 150px;
+  padding: 5px;
+}
+button:active{
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+}
